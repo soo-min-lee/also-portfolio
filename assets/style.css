@@ -18,7 +18,7 @@
 }
 
 body {
-	font-family: sans-serif;
+	font-family: monospace;
 	font-size: var(--font-size);
 	padding: var(--gutter);
 

@@ -1,6 +1,6 @@
 ---
 layout: work
-title: "Work Entry two"
+title: "weird circle things"
 order: 1
 preview: 1.jpg
 ---
