@@ -1,7 +1,10 @@
 {% if page.gallery %}
 	<section class="gallery">
 		{% for image in page.gallery %}
-			<figure>
+			<figure 
+			{% if image.span %}
+				style="--span: span{{image.span}}."
+			{% endif %)}>
 				<img src="{{ image.file }}">
 				<figcaption>{{ image.title }}</figcaption>
 			</figure>

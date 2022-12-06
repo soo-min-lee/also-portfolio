@@ -2,6 +2,7 @@
 layout: work
 title: "weird circle things"
 order: 1
+description: During my summer internship, I did work.
 preview: 1.jpg
 ---
 

@@ -1,14 +1,13 @@
 ---
 layout: work
-title: "wafer-looking form"
-order: 0
-preview: 2.jpeg
-description: Hello, World!
+title: "yolo"
+order: 1
+description: wtf
+preview: oyy.jpg
 gallery:
-  - file: 1.jpg
+    - file: hey.jpg
     title: Example 1
-  - file: 2.jpeg
-    title: Example
+
 ---
 
 ## Easier text markup
@@ -40,8 +39,8 @@ It’s used by *many, many* things now: [Google chats][chats], [Slack][slack], [
 
 > I *love* Markdown. If there is only one thing you take away from our class, let it be some fluency in `.md`. It’s the [lingua franca](https://en.wikipedia.org/wiki/Lingua_franca) for basic text formatting.
 
-- List item 1
-- List item 2
+![alt text](oyy.jpg)
+![alt text](hi.gif)
+![alt text](hey.jpg)
 
-1. Ordered list 1
-2. Ordered list 2 
+

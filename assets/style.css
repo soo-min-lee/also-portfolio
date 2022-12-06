@@ -6,7 +6,7 @@
 	--font-size--heading: calc(2 * var(--font-size));
 	--font-size--subheading: calc(1.5 * var(--font-size));
 
-	--font-size--desktop: 18px;
+	--font-size--desktop: 48px;
 
 }
 
@@ -18,7 +18,7 @@
 }
 
 body {
-	font-family: monospace;
+	font-family: 'VT323', monospace;
 	font-size: var(--font-size);
 	padding: var(--gutter);
 
@@ -40,4 +40,35 @@ h1 {
 
 .grid img {
 	max-height: 70vh;
+}
+
+nav{
+display: flex;
+gap: var(--gutrer);
+}
+
+
+
+main {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+main img {
+	max-height: 50vh;
+	/* aspect-ratio: 1/1; */
+	width: 100%;
+	aspect-ratio: 4/3;
+	object-fit: cover;
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: var(--gutter);
+}
+
+.gallery figure {
+	grid-column: var(--span, span1);
 }
